@@ -8,5 +8,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy source code
 COPY .. capstone_projects
+COPY .. utils
 
 CMD ["python", "capstone_projects/langchain/main.py"]

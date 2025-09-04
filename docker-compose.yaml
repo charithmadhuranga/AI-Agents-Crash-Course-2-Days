@@ -1,0 +1,34 @@
+version: "3.9"
+
+services:
+  n8n:
+    image: n8nio/n8n:latest
+    container_name: n8n
+    restart: unless-stopped
+    ports:
+      - "5678:5678"
+    environment:
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_BASIC_AUTH_USER=${N8N_USER}
+      - N8N_BASIC_AUTH_PASSWORD=${N8N_PASSWORD}
+      - N8N_HOST=${N8N_HOST}
+      - N8N_PORT=5678
+    volumes:
+      - ./n8n_data:/home/node/.n8n
+      - ./n8n:/workflows
+    depends_on:
+      - agents
+
+  agents:
+    build: ./agents
+    container_name: agents
+    restart: unless-stopped
+    volumes:
+      - ./capstone_projects:/app/capstone_projects
+      - ./utils:/app/utils
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - CREWAI_API_KEY=${CREWAI_API_KEY}
+    command: uvicorn utils.api:app --host 0.0.0.0 --port 8000
+    ports:
+      - "8000:8000"

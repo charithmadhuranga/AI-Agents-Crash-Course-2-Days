@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a6672af-7ce3-445b-8e00-b72415a9e10a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/agents/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agents/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/capstone_projects/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/capstone_projects/crewai/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/capstone_projects/langchain/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/capstone_projects/langchain/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/capstone_projects/langraph/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/n8n/research_workflow.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/capstone_projects/langchain/agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agents/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/agents/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +105,7 @@
       <updated>1756906849546</updated>
       <workItem from="1756906851026" duration="2985000" />
       <workItem from="1756927029567" duration="15000" />
-      <workItem from="1756927206302" duration="5964000" />
+      <workItem from="1756927206302" duration="6447000" />
     </task>
     <servers />
   </component>
