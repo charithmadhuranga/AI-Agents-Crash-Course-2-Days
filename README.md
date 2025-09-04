@@ -65,3 +65,24 @@ The goal: by the end of Day 2, you’ll have built **production-ready AI agent s
 - Combine all tools into one project:
   - **AI Research Assistant**
   - **E-commerce Support Bot**
+
+# ⚡ Makefile Usage Guide
+
+This project includes a `Makefile` to simplify working with Docker containers for **n8n** and **AI agents**. Instead of remembering long `docker-compose` commands, you can run simple `make` commands.
+
+---
+
+## 📋 Available Commands
+
+| Command         | Description |
+|-----------------|-------------|
+| `make help`     | Show all available commands |
+| `make build`    | Build Docker images for agents and n8n |
+| `make up`       | Start containers in the background |
+| `make logs`     | View logs from running containers |
+| `make stop`     | Stop running containers without removing them |
+| `make down`     | Stop and remove containers, but keep volumes/images |
+| `make restart`  | Restart containers (equivalent to down + up) |
+| `make clean`    | Remove containers, volumes, and images (⚠️ full reset) |
+
+---
