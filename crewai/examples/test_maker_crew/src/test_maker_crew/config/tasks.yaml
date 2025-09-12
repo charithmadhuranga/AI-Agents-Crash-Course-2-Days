@@ -1,0 +1,29 @@
+
+write_test_task:
+  description: >
+    You will create a test with a multible choice answers - a, b ,c or d.
+    You will write the test with clear aquestions and answers.
+    the topic of the test will be:
+    {topic}
+  expected_output: >
+    you will Write the test as best as you can and give it to the next agent
+
+review_test_task:
+  description: >
+    you will review the test and make sure that the questions and the answers are concise and correct for the topic:
+    {topic}
+  expected_output: >
+    Your final anwser will be the test corrected if it needed corrections
+
+final_check_test_task:
+  description: >
+    You will recieve the test and will fix any errors that are in the test
+    the test will be on the topic: {topic}
+  expected_output: >
+    your final answer must be the test, 
+    ready for the students to start solving it 
+    the answers need to be at the bottom of the test, so that the teacher can remove them easier before he gives the test to the students.
+    also, don't say **End of Test** in the end of the test please
+    - so only the test, without the ``` before and after the test please
+
+
