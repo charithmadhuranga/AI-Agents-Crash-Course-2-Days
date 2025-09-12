@@ -5,8 +5,10 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "autogenstudio>=0.4.2.2",
     "crewai>=0.177.0",
     "fastapi>=0.116.1",
+    "jupyterlab>=4.4.7",
     "langchain[google-genai]>=0.3.27",
     "langgraph>=0.6.6",
     "openai>=1.105.0",

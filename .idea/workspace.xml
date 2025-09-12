@@ -5,9 +5,188 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a6672af-7ce3-445b-8e00-b72415a9e10a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/Gemma_LangChain.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/LLaMA2_sql_chat.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/Multi_modal_RAG.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/Multi_modal_RAG_google.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/RAPTOR.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/Semi_Structured_RAG.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/Semi_structured_and_multi_modal_RAG.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/Semi_structured_multi_modal_RAG_LLaMA2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/advanced_rag_eval.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/agent_fireworks_ai_langchain_mongodb.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/agent_vectorstore.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/airbyte_github.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/amazon_personalize_how_to.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/analyze_document.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/anthropic_structured_outputs.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/apache_kafka_message_handling.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/autogpt/autogpt.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/autogpt/marathon_times.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/azure_container_apps_dynamic_sessions_data_analyst.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/baby_agi.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/baby_agi_with_agent.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/camel_role_playing.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/causal_program_aided_language_model.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/code-analysis-deeplake.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/contextual_rag.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/cql_agent.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/custom_agent_with_plugin_retrieval.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/custom_agent_with_plugin_retrieval_using_plugnplai.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/custom_agent_with_tool_retrieval.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/custom_multi_action_agent.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/data/imdb_top_1000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/deeplake_semantic_search_over_chat.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/docugami_xml_kg_rag.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/elasticsearch_db_qa.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/extraction_openai_tools.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/fake_llm.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/fireworks_rag.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/forward_looking_retrieval_augmented_generation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/generative_agents_interactive_simulacra_of_human_behavior.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/gymnasium_agent_simulation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/hugginggpt.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/human_approval.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/human_input_chat_model.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/human_input_llm.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/hypothetical_document_embeddings.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/img-to_img-search_CLIP_ChromaDB.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/langgraph_agentic_rag.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/langgraph_crag.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/langgraph_self_rag.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/learned_prompt_optimization.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/llm_bash.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/llm_checker.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/llm_math.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/llm_summarization_checker.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/llm_symbolic_math.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/local_rag_agents_intel_cpu.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/meta_prompt.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/mongodb-langchain-cache-memory.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/multi_modal_QA.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/multi_modal_RAG_chroma.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/multi_modal_RAG_vdms.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/multi_modal_output_agent.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/multi_player_dnd.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/multiagent_authoritarian.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/multiagent_bidding.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/myscale_vector_sql.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/nomic_embedding_rag.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/nomic_multimodal_rag.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/openai_functions_retrieval_qa.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/openai_v1_cookbook.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/optimization.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/oracleai_demo.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/petting_zoo.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/plan_and_execute_agent.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/press_releases.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/program_aided_language_model.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/qa_citations.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/qianfan_baidu_elasticesearch_RAG.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/rag-locally-on-intel-cpu.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/rag_fusion.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/rag_mlflow_tracking_evaluation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/rag_semantic_chunking_azureaidocintelligence.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/rag_upstage_document_parse_groundedness_check.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/rag_with_quantized_embeddings.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/retrieval_in_sql.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/rewrite.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/sales_agent_with_context.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/selecting_llms_based_on_context_length.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/self-discover.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/self_query_hotel_search.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/sharedmemory_for_tools.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/smart_llm.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/sql_db_qa.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/stepback-qa.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/together_ai.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/tool_call_messages.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/tree_of_thought.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/twitter-the-algorithm-analysis-deeplake.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/two_agent_debate_tools.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/two_player_dnd.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/video_captioning/video_captioning.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/visual_RAG_vdms.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langchain/cookbook/wikibase_agent.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/async.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/branching.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/chatbot-simulation-evaluation/agent-simulation-evaluation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/chatbot-simulation-evaluation/langsmith-agent-simulation-evaluation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/chatbot-simulation-evaluation/simulation_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/chatbots/information-gather-prompting.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/cloud_examples/langgraph_to_langgraph_cloud.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/code_assistant/langgraph_code_assistant.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/code_assistant/langgraph_code_assistant_mistral.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/configuration.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/create-react-agent-hitl.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/create-react-agent-memory.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/create-react-agent-system-prompt.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/create-react-agent.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/customer-support/customer-support.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/extraction/retries.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/human_in_the_loop/wait-user-input.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/input_output_schema.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/lats/lats.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/llm-compiler/LLMCompiler.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/map-reduce.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/memory/add-summary-conversation-history.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/memory/delete-messages.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/memory/manage-conversation-history.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/multi_agent/hierarchical_agent_teams.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/multi_agent/multi-agent-collaboration.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/node-retries.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/pass-config-to-tools.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/pass-run-time-values-to-tools.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/pass_private_state.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/persistence.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/persistence_mongodb.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/persistence_postgres.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/persistence_redis.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/plan-and-execute/plan-and-execute.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/rag/langgraph_adaptive_rag.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/rag/langgraph_adaptive_rag_cohere.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/rag/langgraph_adaptive_rag_local.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/rag/langgraph_agentic_rag.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/rag/langgraph_crag.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/rag/langgraph_crag_local.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/rag/langgraph_self_rag.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/rag/langgraph_self_rag_local.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/rag/langgraph_self_rag_pinecone_movies.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/react-agent-from-scratch.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/react-agent-structured-output.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/recursion-limit.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/reflection/reflection.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/reflexion/reflexion.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/rewoo/rewoo.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/run-id-langsmith.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/self-discover/self-discover.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/state-model.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/storm/storm.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/stream-multiple.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/stream-updates.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/stream-values.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/streaming-content.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/streaming-events-from-within-tools-without-langchain.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/streaming-events-from-within-tools.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/streaming-from-final-node.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/streaming-subgraphs.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/streaming-tokens-without-langchain.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/streaming-tokens.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/subgraph-transform-state.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/subgraph.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/subgraphs-manage-state.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/tool-calling-errors.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/tool-calling.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/tutorials/sql-agent.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/tutorials/tnt-llm/tnt-llm.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/usaco/usaco.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/visualization.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/langraph/examples/web-navigation/web_voyager.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +221,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "/Users/charith/Desktop/AGENT-LEARN/langchain-prj",
+    "last_opened_file_path": "/Users/charith/Desktop/AGENT-LEARN/langchain-prj/langchain",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -54,6 +233,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/langchain" />
+      <recent name="$PROJECT_DIR$/langraph" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -90,8 +271,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-PY-252.25557.130" />
-        <option value="bundled-python-sdk-1bde30d8e611-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.130" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-PY-252.25557.178" />
+        <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
       </set>
     </attachedChunks>
   </component>
@@ -104,7 +285,8 @@
       <updated>1756906849546</updated>
       <workItem from="1756906851026" duration="2985000" />
       <workItem from="1756927029567" duration="15000" />
-      <workItem from="1756927206302" duration="6697000" />
+      <workItem from="1756927206302" duration="12442000" />
+      <workItem from="1757233583459" duration="10705000" />
     </task>
     <servers />
   </component>
