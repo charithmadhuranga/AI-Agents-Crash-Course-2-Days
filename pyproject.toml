@@ -5,15 +5,23 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
+    "agno>=2.0.4",
+    "anthropic>=0.67.0",
     "autogenstudio>=0.4.2.2",
     "crewai>=0.177.0",
     "fastapi>=0.116.1",
+    "google-adk>=1.14.0",
     "jupyterlab>=4.4.7",
     "langchain[google-genai]>=0.3.27",
     "langgraph>=0.6.6",
+    "llama-index>=0.14.0",
+    "mcp>=1.14.0",
     "openai>=1.105.0",
+    "openai-agents>=0.2.11",
     "pydantic>=2.11.7",
+    "pydantic-ai>=1.0.6",
     "python-dotenv>=1.1.1",
     "requests>=2.32.5",
+    "strands-agents>=1.8.0",
     "uvicorn>=0.35.0",
 ]
